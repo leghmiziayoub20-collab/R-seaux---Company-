@@ -1,0 +1,10 @@
+
+
+
+/* لزيادة التباعد على الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column !important;
+    gap: 0.5rem;
+  }
+}
